@@ -1,0 +1,21 @@
+nav {
+  height: 80px;
+  width: 100%;
+  background: #fefefe;
+  color: #989696;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.logo {
+  width: 300px;
+}
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}

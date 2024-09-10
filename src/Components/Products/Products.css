@@ -1,0 +1,58 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media screen and (min-width: 640px) {
+  .products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .product {
+    width: calc(50% - 16px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .products {
+    flex-wrap: nowrap;
+  }
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+.product {
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+.caption {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgb(152, 150, 150, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #4f4c4c;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.4s;
+}
+.caption img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+.product:hover .caption {
+  opacity: 1;
+}
