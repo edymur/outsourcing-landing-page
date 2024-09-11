@@ -1,0 +1,45 @@
+.whyText {
+	text-align: center;
+	text-wrap: wrap;
+	display: block;
+	width: 100%;
+	padding: 15px;
+	border: 0;
+	outline: 0;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	resize: none;
+}
+.stat_section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 40px;
+    background: rgb(103, 194, 61, 0.2);
+}
+.stat_section p {
+	margin-bottom: 15px;
+}
+
+
+.stat_item {
+	text-align: center;
+}
+
+.stat_item img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+.stat_item h3 {
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+.stat_item p {
+	font-size: 1em;
+}
+
+  
